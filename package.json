@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "examination task frontend javascript",
+  "source": "index.html",
+  "scripts": {
+    "dev": "git",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommyBjorkman/frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tommyBjorkman/frontend/issues"
+  },
+  "homepage": "https://github.com/tommyBjorkman/frontend#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
