@@ -44,3 +44,12 @@ a {
 	padding: 4px;
 	border-radius: 4px;
 }
+.beer {
+	display: grid;
+	justify-content: center;
+  }
+  .cardBeer {
+	padding: 10px;
+	margin: 10px;
+	border: 10px;
+  }
