@@ -1,3 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
 .beerimg {
 	max-height: 40rem;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #090c0e;
+	color: white;
+	padding: 25px 60px;
+	margin-bottom: 30px;
+}
+a {
+	text-decoration: none;
+	color: white;
+  }
+.cart {
+	position: relative;
+	background-color: rgb(98, 67, 210);
+	color: #090c0e;
+	font-size: 30px;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+.cartAmount {
+	position: absolute;
+	top: -16px;
+	right: -11px;
+	font-size: 15px;
+	background-color: rgb(105, 3, 3);
+	color: white;
+	padding: 4px;
+	border-radius: 4px;
 }
