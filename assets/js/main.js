@@ -14,7 +14,7 @@ let data = fetch(url)
 
                output += `
         <div class="card" style="width: 18rem;">
-        <img src="${beerImg}" class="card-img-top" alt="Beer on the table">
+        <img src="${beerImg}" class="card-img-top beerimg" alt="Picture of a beer">
         <div class="card-body">
           <h5 class="card-title">${beerName}</h5>
           <p class="card-text">${beerTagline}</p>
