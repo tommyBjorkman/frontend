@@ -24,7 +24,7 @@ let data = fetch(url)
           <li class="list-group-item">Goes well with: ${beerInd}</li>
         </ul>
         <div class="card-body">
-          <button id="buyBeer btn" class="btn btn-primary">add to cart</button>
+          <button id="btn" class="btn btn-primary">add to cart</button>
         </div>
       </div>
         `;

@@ -10,7 +10,7 @@ const observer = new MutationObserver(function() {
     }
 })
 
-target = document.querySelector('body');
+let target = document.querySelector('body');
 const config = { attributes: true, childList: true, subtree: true };
 observer.observe(target, config);
 
