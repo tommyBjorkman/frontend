@@ -3,16 +3,17 @@ const cardBeer = document.querySelector('.cardBeer');
 let output = '';
 
 let data = fetch(url)
-     .then(res => res.json())
-     .then(data => {
-          for (let i = 1; i < data.length; i++) {
-               const beerName = data[i].name;
-               const beerTagline = data[i].tagline;
-               const beerDescription = data[i].description;
-               const beerImg = data[i].image_url;
-               const beerInd = data[i].food_pairing;
+  .then(res => res.json())
+  .then(data => {
+    for (let i = 1; i < data.length; i++) {
+      const beerName = data[i].name;
+      const beerTagline = data[i].tagline;
+      const beerDescription = data[i].description;
+      const beerImg = data[i].image_url;
+      const beerInd = data[i].food_pairing;
 
-               output += `
+      output += `
+               <div class="shop">
         <div class="card" style="width: 18rem;">
         <img src="${beerImg}" class="card-img-top beerimg" alt="Picture of a beer">
         <div class="card-body">
@@ -27,7 +28,9 @@ let data = fetch(url)
           <button id="btn" class="btn btn-primary">add to cart</button>
         </div>
       </div>
+      </div>
+      <br>
         `;
-          };
-          cardBeer.innerHTML = output;
-     })
+    };
+    cardBeer.innerHTML = output;
+  })
