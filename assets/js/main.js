@@ -26,6 +26,7 @@ let data = fetch(url)
         </ul>
         <div class="card-body">
           <button id="btn" class="btn btn-primary">add to cart</button>
+          
         </div>
       </div>
       </div>
@@ -34,3 +35,7 @@ let data = fetch(url)
     };
     cardBeer.innerHTML = output;
   })
+  let update = () => {
+
+  }
+  update()
