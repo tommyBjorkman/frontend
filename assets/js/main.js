@@ -35,7 +35,3 @@ let data = fetch(url)
     };
     cardBeer.innerHTML = output;
   })
-  let update = () => {
-
-  }
-  update()
