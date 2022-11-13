@@ -4,7 +4,7 @@
   "description": "examination task frontend javascript",
   "source": "index.html",
   "scripts": {
-    "dev": "git",
+    "dev": "parcel",
     "build": "parcel build"
   },
   "repository": {
